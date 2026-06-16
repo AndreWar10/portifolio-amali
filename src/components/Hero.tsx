@@ -18,7 +18,7 @@ export function Hero() {
       className="relative flex min-h-[100svh] items-end overflow-hidden bg-ink"
     >
       <Image
-        src="/images/hero.png"
+        src="/images/fundo.png"
         alt="As três fundadoras da agência Amáli em um estúdio fotográfico, sorrindo juntas"
         fill
         priority

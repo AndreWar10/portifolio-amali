@@ -20,7 +20,7 @@ Acesse [http://localhost:3000](http://localhost:3000).
 
 ## Foto hero
 
-Coloque a foto das fundadoras em `public/images/hero.png`. Enquanto o arquivo não existir, o site usa um placeholder em gradiente.
+Coloque a foto das fundadoras em `public/images/fundo.png`. Enquanto o arquivo não existir, o site usa um placeholder em gradiente.
 
 ## Deploy (Vercel)
 
