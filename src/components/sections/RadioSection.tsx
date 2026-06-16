@@ -3,6 +3,38 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { FadeIn } from "@/components/FadeIn";
 import { radioProject } from "@/lib/site";
 
+const audioTracks = [
+  { file: "JingleEditado2.mp4", title: "Jingle", icon: "🎵" },
+  { file: "VinhetaEditada.mp4", title: "Vinheta", icon: "📻" },
+  { file: "TeaserEditado.mp4", title: "Teaser", icon: "🎬" },
+  { file: "TestemunhoEditado.mp4", title: "Testemunho", icon: "🎙️" },
+  { file: "PatrocinioEditado.mp4", title: "Patrocínio", icon: "📢" },
+  { file: "1.mp4", title: "Spot Publicitário", icon: "🔊" },
+];
+
+function AudioCard({ track, index }: { track: typeof audioTracks[number]; index: number }) {
+  return (
+    <FadeIn delay={index * 0.08}>
+      <div className="group flex items-center gap-4 rounded-xl bg-cream/[0.06] px-5 py-4 ring-1 ring-cream/8 transition-all duration-300 hover:bg-cream/[0.1] hover:ring-gold/20">
+        <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-rose/20 to-gold/20 text-lg">
+          {track.icon}
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="text-sm font-medium text-cream">{track.title}</p>
+          <audio
+            controls
+            preload="none"
+            className="mt-2 h-8 w-full [&::-webkit-media-controls-enclosure]:rounded-lg [&::-webkit-media-controls-enclosure]:bg-cream/10 [&::-webkit-media-controls-panel]:bg-transparent"
+          >
+            <source src={`/audios/${track.file}`} type="video/mp4" />
+            Seu navegador não suporta áudio.
+          </audio>
+        </div>
+      </div>
+    </FadeIn>
+  );
+}
+
 export function RadioSection() {
   return (
     <section id="radio" aria-labelledby="radio-heading" className="relative overflow-hidden bg-gradient-to-br from-olive-dark via-olive to-ink py-24 text-cream sm:py-32 lg:py-40">
@@ -54,6 +86,25 @@ export function RadioSection() {
               </a>
             </div>
           </FadeIn>
+        </div>
+
+        <div className="mt-20 lg:mt-24">
+          <FadeIn>
+            <div className="flex items-center gap-4">
+              <div className="h-px w-8 bg-rose" aria-hidden="true" />
+              <span className="text-[11px] font-semibold uppercase tracking-[0.3em] text-rose-light sm:text-xs">Cliente</span>
+            </div>
+            <h3 className="mt-4 font-display text-4xl text-cream sm:text-5xl">FORS</h3>
+            <p className="mt-4 max-w-lg text-[15px] font-light leading-relaxed text-cream/45">
+              Produções de áudio para rádio desenvolvidas para o cliente FORS — jingles, vinhetas, teasers, testemunhos e spots publicitários.
+            </p>
+          </FadeIn>
+
+          <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {audioTracks.map((track, index) => (
+              <AudioCard key={track.file} track={track} index={index} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

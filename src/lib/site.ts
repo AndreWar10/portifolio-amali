@@ -55,9 +55,9 @@ export const projects: Project[] = [
   },
   {
     id: "video-1",
-    title: "Produção Audiovisual I",
+    title: "Comercial Renata: Para cada emoção existe Renata",
     description:
-      "Trabalho audiovisual desenvolvido no curso de Publicidade e Propaganda.",
+      "Peça audiovisual desenvolvida no curso de Publicidade e Propaganda.",
     category: "audiovisual",
     type: "youtube",
     url: "https://www.youtube.com/watch?v=CZbxBYgZKVY",
@@ -65,17 +65,17 @@ export const projects: Project[] = [
   },
   {
     id: "video-2",
-    title: "Produção Audiovisual II",
+    title: "Comercial Spotify",
     description:
-      "Segunda peça audiovisual da agência, explorando narrativa e direção de arte.",
+      "Peça audiovisual publicitária produzida pela agência.",
     category: "audiovisual",
     type: "youtube",
-    url: "https://www.youtube.com/watch?v=xVop1f1E8U8",
-    embedUrl: "https://www.youtube.com/embed/xVop1f1E8U8",
+    url: "https://youtu.be/leCmcUhEBP8",
+    embedUrl: "https://www.youtube.com/embed/leCmcUhEBP8",
   },
   {
     id: "video-short",
-    title: "Conteúdo em Formato Curto",
+    title: "FARM RIO",
     description:
       "Peça em formato vertical para redes sociais e plataformas de short-form.",
     category: "audiovisual",
@@ -85,9 +85,9 @@ export const projects: Project[] = [
   },
   {
     id: "video-3",
-    title: "Produção Audiovisual III",
+    title: "Comercial 51: uma boa ideia",
     description:
-      "Terceira produção audiovisual da agência com direção criativa e storytelling.",
+      "Produção audiovisual da agência com direção criativa e storytelling.",
     category: "audiovisual",
     type: "youtube",
     url: "https://www.youtube.com/watch?v=7rpqz5kJtlw",
@@ -95,9 +95,9 @@ export const projects: Project[] = [
   },
   {
     id: "campanha-institucional-1",
-    title: "Campanha Institucional I",
+    title: "Rebranding Jurupinga",
     description:
-      "Apresentação de campanha institucional com estratégia de marca e posicionamento.",
+      "Campanha institucional com estratégia de marca e posicionamento.",
     category: "institucional",
     type: "canva",
     url: "https://www.canva.com/design/DAGBQy1pHMI/iFu0Di9PxfZPSiQv2J6p-A/view",
@@ -107,9 +107,9 @@ export const projects: Project[] = [
   },
   {
     id: "campanha-institucional-2",
-    title: "Campanha Institucional II",
+    title: "Plano de Marketing Borelli",
     description:
-      "Segunda campanha institucional com foco em identidade visual e comunicação integrada.",
+      "Campanha institucional com foco em identidade visual e comunicação integrada.",
     category: "institucional",
     type: "canva",
     url: "https://www.canva.com/design/DAGTuyzzMik/m3X2oKBds_OM5aKiSXzQuA/view",
@@ -118,9 +118,9 @@ export const projects: Project[] = [
   },
   {
     id: "campanha-conscientizacao",
-    title: "Campanha de Conscientização",
+    title: "Campanha sobre violência contra a mulher",
     description:
-      "Campanha de conscientização social com abordagem criativa e impacto emocional.",
+      "Campanha de conscientização social produzida em cartaz, com abordagem criativa e impacto emocional.",
     category: "conscientizacao",
     type: "canva",
     url: "https://www.canva.com/design/DAHEJ7N-ZeM/SNP_8JMkGjaF5uIFog-wYg/view",
@@ -130,9 +130,9 @@ export const projects: Project[] = [
   },
   {
     id: "video-conscientizacao",
-    title: "Vídeo — Campanha de Conscientização",
+    title: "Campanha Junho Vermelho",
     description:
-      "Peça audiovisual produzida como complemento à campanha de conscientização sobre doação de sangue.",
+      "Peça audiovisual sobre conscientização e doação de sangue.",
     category: "conscientizacao",
     type: "youtube",
     url: "https://youtu.be/gaUUGwbXPUs",

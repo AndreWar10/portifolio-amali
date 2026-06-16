@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-rose: #cd8599;
-  --color-rose-light: #e0a8b8;
-  --color-rose-dark: #b06e82;
+  --color-rose: #c27189;
+  --color-rose-light: #d4909f;
+  --color-rose-dark: #a85a70;
   --color-olive: #726331;
   --color-olive-dark: #5a4e27;
   --color-olive-light: #8a7d4f;

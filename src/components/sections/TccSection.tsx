@@ -14,7 +14,7 @@ export function TccSection() {
         <SectionHeading eyebrow="Conclusão de curso" title="TCC" description="A síntese do percurso acadêmico e profissional da agência Amáli em Publicidade e Propaganda na UNIFRAN." align="center" accent="rose" />
 
         <FadeIn delay={0.1}>
-          <div className="mx-auto mt-14 max-w-5xl overflow-hidden rounded-2xl bg-gradient-to-br from-rose-dark via-rose to-rose-light ring-1 ring-rose/20 sm:mt-16">
+          <div className="mx-auto mt-14 max-w-7xl overflow-hidden rounded-2xl bg-gradient-to-br from-rose-dark via-rose to-rose-light ring-1 ring-rose/20 sm:mt-16">
             <div className="grid lg:grid-cols-2">
               <div className="relative aspect-[16/10] overflow-hidden lg:aspect-auto">
                 <Image
@@ -28,9 +28,10 @@ export function TccSection() {
 
               <div className="flex flex-col justify-center bg-white/95 px-8 py-10 backdrop-blur-sm sm:px-12 sm:py-14">
                 <span className="text-[11px] font-semibold uppercase tracking-[0.3em] text-rose">Amáli · UNIFRAN 2025</span>
-                <h3 className="mt-3 font-display text-3xl text-ink sm:text-4xl">{tccProject.title}</h3>
+                <h3 className="mt-3 font-display text-2xl text-ink sm:text-3xl">Reestruturação da identidade de marca da Ana B.</h3>
+                <p className="mt-2 text-xs font-medium text-ink/35">Branding e posicionamento no mercado de semijoias</p>
                 <p className="mt-4 text-sm font-light leading-relaxed text-ink/50">
-                  Apresentação completa do trabalho de conclusão de curso — da pesquisa à execução criativa, reunindo tudo que a agência construiu ao longo da graduação.
+                  A Ana B. é uma marca de semijoias fundada em Franca (SP) que enfrentava falta de coerência na comunicação e identidade visual. O trabalho propôs reformular a identidade institucional e fortalecer o posicionamento para ampliar reconhecimento e competitividade no mercado.
                 </p>
                 <a
                   href={tccProject.url}

@@ -76,7 +76,7 @@ function CategoryGroup({ label, number, projects }: { label: string; number: str
     <div>
       <FadeIn>
         <div className="mb-8 flex items-center gap-4">
-          <span className="font-display text-5xl text-rose/20 sm:text-6xl">{number}</span>
+          <span className="font-display text-5xl text-rose/50 sm:text-6xl">{number}</span>
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-olive">{label}</h3>
             <div className="mt-1.5 h-px w-16 bg-gradient-to-r from-rose/40 to-transparent" aria-hidden="true" />
