@@ -61,7 +61,6 @@ export const projects: Project[] = [
     type: "youtube",
     url: "https://www.youtube.com/watch?v=CZbxBYgZKVY",
     embedUrl: "https://www.youtube.com/embed/CZbxBYgZKVY",
-    featured: true,
   },
   {
     id: "video-2",
@@ -72,7 +71,6 @@ export const projects: Project[] = [
     type: "youtube",
     url: "https://www.youtube.com/watch?v=xVop1f1E8U8",
     embedUrl: "https://www.youtube.com/embed/xVop1f1E8U8",
-    featured: true,
   },
   {
     id: "video-short",
@@ -83,6 +81,16 @@ export const projects: Project[] = [
     type: "youtube",
     url: "https://www.youtube.com/shorts/-s_cQnIVExY",
     embedUrl: "https://www.youtube.com/embed/-s_cQnIVExY",
+  },
+  {
+    id: "video-3",
+    title: "Produção Audiovisual III",
+    description:
+      "Terceira produção audiovisual da agência com direção criativa e storytelling.",
+    category: "audiovisual",
+    type: "youtube",
+    url: "https://www.youtube.com/watch?v=7rpqz5kJtlw",
+    embedUrl: "https://www.youtube.com/embed/7rpqz5kJtlw",
   },
   {
     id: "campanha-institucional-1",
