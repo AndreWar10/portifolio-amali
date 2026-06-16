@@ -15,6 +15,7 @@ export const navItems = [
   { label: "Sobre", href: "#sobre" },
   { label: "Audiovisual", href: "#audiovisual" },
   { label: "Campanhas", href: "#campanhas" },
+  { label: "Fotografia", href: "#fotografia" },
   { label: "Rádio", href: "#radio" },
   { label: "TCC", href: "#tcc" },
 ] as const;
