@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 800" role="img" aria-label="Imagem placeholder  substitua por public/images/hero.png">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#726331"/>
+      <stop offset="50%" style="stop-color:#AC9F6F"/>
+      <stop offset="100%" style="stop-color:#CD8599"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="800" fill="url(#bg)"/>
+  <rect width="1920" height="800" fill="#FFFDF2" opacity="0.15"/>
+</svg>
